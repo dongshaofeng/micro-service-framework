@@ -1,0 +1,48 @@
+2019/09/02-11:33 [restartedMain] INFO  cloud.gateway.GatewayApplication- No active profile set, falling back to default profiles: default
+ 2019/09/02-11:33 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+ 2019/09/02-11:33 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+ 2019/09/02-11:33 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 31ms. Found 0 repository interfaces.
+ 2019/09/02-11:33 [restartedMain] WARN  org.springframework.boot.actuate.endpoint.EndpointId- Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+ 2019/09/02-11:33 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$35836319] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2019/09/02-11:33 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource- No URLs will be polled as dynamic configuration sources.
+ 2019/09/02-11:33 [restartedMain] INFO  com.netflix.config.sources.URLConfigurationSource- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+ 2019/09/02-11:33 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource- No URLs will be polled as dynamic configuration sources.
+ 2019/09/02-11:33 [restartedMain] INFO  com.netflix.config.sources.URLConfigurationSource- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+ 2019/09/02-11:33 [restartedMain] WARN  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- Unable to start LiveReload server
+ 2019/09/02-11:33 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient- DiscoveryClient_CLOUD-GATEWAY-SERVER/cloud-gateway-server@192.168.1.10@30202 - Re-registering apps/CLOUD-GATEWAY-SERVER
+ 2019/09/02-11:33 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient- DiscoveryClient_CLOUD-GATEWAY-SERVER/cloud-gateway-server@192.168.1.10@30202: registering service...
+ 2019/09/02-11:33 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient- Shutting down DiscoveryClient ...
+ 2019/09/02-11:33 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient- DiscoveryClient_CLOUD-GATEWAY-SERVER/cloud-gateway-server@192.168.1.10@30202 - registration status: 204
+ 2019/09/02-11:33 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient- Unregistering ...
+ 2019/09/02-11:33 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient- DiscoveryClient_CLOUD-GATEWAY-SERVER/cloud-gateway-server@192.168.1.10@30202 - deregister  status: 200
+ 2019/09/02-11:33 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient- Completed shut down of DiscoveryClient
+ 2019/09/02-11:33 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient- Initializing Eureka in region us-east-1
+ 2019/09/02-11:33 [restartedMain] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider- Using JSON encoding codec LegacyJacksonJson
+ 2019/09/02-11:33 [restartedMain] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider- Using JSON decoding codec LegacyJacksonJson
+ 2019/09/02-11:33 [restartedMain] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider- Using XML encoding codec XStreamXml
+ 2019/09/02-11:33 [restartedMain] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider- Using XML decoding codec XStreamXml
+ 2019/09/02-11:33 [restartedMain] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver- Resolving eureka endpoints via configuration
+ 2019/09/02-11:33 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient- Disable delta property : false
+ 2019/09/02-11:33 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient- Single vip registry refresh property : null
+ 2019/09/02-11:33 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient- Force full registry fetch : false
+ 2019/09/02-11:33 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient- Application is null : false
+ 2019/09/02-11:33 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient- Registered Applications size is zero : true
+ 2019/09/02-11:33 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient- Application version is -1: true
+ 2019/09/02-11:33 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient- Getting all instance registry info from the eureka server
+ 2019/09/02-11:33 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient- The response status is 200
+ 2019/09/02-11:33 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient- Starting heartbeat executor: renew interval is: 30
+ 2019/09/02-11:33 [restartedMain] INFO  com.netflix.discovery.InstanceInfoReplicator- InstanceInfoReplicator onDemand update allowed rate per min is 4
+ 2019/09/02-11:33 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient- Discovery Client initialized at timestamp 1567395236452 with initial instances count: 1
+ 2019/09/02-11:33 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient- Saw local status change event StatusChangeEvent [timestamp=1567395236457, current=UP, previous=STARTING]
+ 2019/09/02-11:33 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient- DiscoveryClient_CLOUD-GATEWAY-SERVER/cloud-gateway-server@192.168.1.10@30202: registering service...
+ 2019/09/02-11:33 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient- DiscoveryClient_CLOUD-GATEWAY-SERVER/cloud-gateway-server@192.168.1.10@30202 - registration status: 204
+ 2019/09/02-11:33 [restartedMain] INFO  cloud.gateway.GatewayApplication- Started GatewayApplication in 46.051 seconds (JVM running for 48.218)
+ 2019/09/02-11:38 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver- Resolving eureka endpoints via configuration
+ 2019/09/02-11:43 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver- Resolving eureka endpoints via configuration
+ 2019/09/02-11:48 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver- Resolving eureka endpoints via configuration
+ 2019/09/02-11:53 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver- Resolving eureka endpoints via configuration
+ 2019/09/02-11:58 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver- Resolving eureka endpoints via configuration
+ 2019/09/02-12:03 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver- Resolving eureka endpoints via configuration
+ 2019/09/02-12:08 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver- Resolving eureka endpoints via configuration
+ 2019/09/02-12:13 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver- Resolving eureka endpoints via configuration
+ 
