@@ -1,7 +1,7 @@
 package cloud.oauth2.server.domain;
 
 public class UserMe {
-   private String roles;
+   private String  roles;
    private String  username;
    private String avatarUrl;
     public String getAvatarUrl() {
