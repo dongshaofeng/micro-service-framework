@@ -92,5 +92,5 @@ mvn spring-boot:run
 microservice status
 visit http://localhost:30200  
 
-get token from oauth2
+get token from oauth2  
 curl   SampleClientId:tgb.258@localhost:30204/auth/oauth/getToken -d grant_type=password -d username=zhangsan -d password=tgb.258

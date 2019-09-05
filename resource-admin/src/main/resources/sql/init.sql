@@ -33,6 +33,6 @@ CREATE TABLE IF NOT EXISTS resource_entity
 );
 
 insert into resource_entity(url, roles)
-values ('/admin/user/**', 'ROLE_SUPER'),
+values ('/admin/menu/**', 'ROLE_SUPER'),
        ('/admin/role/**', 'ROLE_SUPER'),
        ('/case/**', 'ROLE_USER,ROLE_SUPER');

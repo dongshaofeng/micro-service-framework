@@ -50,6 +50,16 @@ public class ResourceEntity implements Serializable {
 	@Column(nullable=false, length=50)
 	private String url;
  
+	@Column(nullable=false)
+	private int menuid;
+
+	public int getMenuid() {
+		return menuid;
+	}
+
+	public void setMenuid(int menuid) {
+		this.menuid = menuid;
+	}
 
 	@Column(nullable=false)
 	private int version;
