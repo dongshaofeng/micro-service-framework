@@ -47,6 +47,8 @@ public class CustomAuthenticationProvider extends AbstractUserDetailsAuthenticat
             throw new BadCredentialsException(this.messages
                     .getMessage("AbstractUserDetailsAuthenticationProvider.badCredentials", "Bad credentials"));
         } else {
+        	
+        	// to do .if  third sso .Tony 20190905
             String presentedPassword = authentication.getCredentials().toString();
             if (!this.passwordEncoder.matches(presentedPassword, userDetails.getPassword())) {
                 this.logger.debug("Authentication failed: password does not match stored value");

@@ -35,6 +35,6 @@ spec:
   ports:
   - name: tcp-8761-8761
     protocol: TCP
-    port: 8761
-    targetPort: 8761
-    nodePort: 300001
+    port: 30200
+    targetPort: 30200
+    nodePort: 30200
