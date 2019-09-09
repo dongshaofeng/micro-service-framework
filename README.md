@@ -85,9 +85,7 @@ mvn spring-boot:run  -Dspring-boot.run.mArguments="-Dserver.port=30200 -Xms128m 
 cd config   
 mvn spring-boot:run  -Dspring-boot.run.mArguments="-Dserver.port=30201 -Xms128m -Xmx128m"  
 
-cd gateway  
-mvn spring-boot:run  
-or  
+cd gateway   
 mvn spring-boot:run  -Dspring-boot.run.mArguments="-Dserver.port=30202 -Xms256m -Xmx256m"  
 
 cd oauth2-server   
