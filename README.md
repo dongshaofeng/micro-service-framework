@@ -72,6 +72,11 @@ values (1, 1),
 ```
 
 ## to start microservice
+cd common  
+mvn install  
+
+cd mybusiness-spring-boot-starter  
+mvn install  
 
 cd eureka  
 mvn spring-boot:run   
@@ -102,8 +107,13 @@ mvn spring-boot:run  -Dspring-boot.run.mArguments="-Dserver.port=30204 -Xms256m 
 
 
 ## test  
-microservice status
-visit http://localhost:30200  
+microservice status , visit the flowing address    
+http://localhost:30200  
 
 get token from oauth2  
+```
 curl   SampleClientId:tgb.258@localhost:30204/auth/oauth/getToken -d grant_type=password -d username=zhangsan -d password=tgb.258
+```
+
+![k8s](eureka.png)  
+                                **figure contrainer deployment**   
