@@ -75,18 +75,31 @@ values (1, 1),
 
 cd eureka  
 mvn spring-boot:run   
+or   
+mvn spring-boot:run  -Dspring-boot.run.mArguments="-Dserver.port=30200 -Xms128m -Xmx128m"  
 
 cd config  
 mvn spring-boot:run   
+or   
+mvn spring-boot:run  -Dspring-boot.run.mArguments="-Dserver.port=30201 -Xms128m -Xmx128m"  
 
 cd gateway  
-mvn spring-boot:run   
+mvn spring-boot:run  
+or  
+mvn spring-boot:run  -Dspring-boot.run.mArguments="-Dserver.port=30202 -Xms256m -Xmx256m"  
+
 
 cd oauth2-server  
-mvn spring-boot:run   
+mvn spring-boot:run  
+or  
+mvn spring-boot:run  -Dspring-boot.run.mArguments="-Dserver.port=30203 -Xms256m -Xmx256m"  
+
 
 cd resource-admin    
-mvn spring-boot:run   
+mvn spring-boot:run  
+or   
+mvn spring-boot:run  -Dspring-boot.run.mArguments="-Dserver.port=30204 -Xms256m -Xmx256m"  
+
 
 ## test  
 microservice status
